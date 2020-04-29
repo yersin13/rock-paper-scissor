@@ -6,7 +6,10 @@ body{
 
 
 .main-box{
-    
+    min-width: 575px;
+max-width: 500px;
+    height: 100vh;
+/*   width: 765px;*/
 /*    border: solid;*/
     display: flex;
     justify-content: center;
@@ -18,12 +21,13 @@ body{
 }
 
 .title-box{
- 
+     border-radius: 20px;
     max-width: 400px;
     border: solid;
     padding: 5px;
     font-weight: 700;
     color:white;
+    
 }
 
 
@@ -45,10 +49,11 @@ body{
 }
 
 .score-box{
+    
     display: flex;
 flex-direction: column;
     text-align: center;
-/*    border: solid;*/
+    border: solid;
 /*    height: 100%;*/
     width: 120px;
 /*    padding-top: 10px;*/
@@ -85,6 +90,7 @@ flex-direction: column;
 }
 
 .main-box-img{
+/*    padding-top: 50px;*/
     background-image: url("bg-triangle.svg");
     background-repeat: no-repeat;
     height: 500px;
@@ -179,4 +185,53 @@ margin-top: auto;
 /*    top: -50%;*/
     width: 50%;
     height: 50%;  
+}
+
+
+.rules-box{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.rules{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+/*    text-align: center;*/
+/*    align-self: center;*/
+    align-items: center;
+/*    align-content: center;*/
+    border-radius: 5px;
+    color:white;
+    border: solid 0.5px;
+    height: 45px;
+}
+
+.rules-text{
+    margin: 0;
+    letter-spacing: 5px;
+    color: white;
+}
+
+
+
+.main-box-rules{
+    height: 100vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.rules-title{
+    opacity: 0.6;
+    padding-bottom: 30px;
+    
+}
+
+.close-icon{
+    padding-top: 50px;
 }
